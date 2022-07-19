@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(https://imengine.public.prod.dur.navigacloud.com/?uuid=11792327-F6AF-45D3-A329-FA075BC6D017&function=original&type=preview);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  background: transparent;
+  color: #ffffff;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+header h2 {
+  font-size: 70px;
+  font-weight: 700;
+  padding-top: 6px;
+  font-family: sans-serif;
+}
+
+section {
+  min-height: 100vh;
+  margin-top: 30px;
+}
+
+section p {
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.donate p {
+  margin-top: 100px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+
+}
